@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+h1,
+h3,
+button,
+h6,
+.submit {
+    font-family: 'Montserrat', sans-serif;
+}
+html {
+    background-image: url(./images/wistiabackground.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-content img {
+    width: 30vh;
+    margin-top: 30px;
+    margin-left: 100px;
+    cursor: pointer;
+}
+.header-content button {
+    margin-top: 30px;
+    margin-right: 100px;
+    padding: 15px 20px 15px 20px;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white;
+    background-color: transparent;
+    cursor: pointer;
+}
+.main-txt-content {
+    padding-top: 100px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main-txt-content .main-txt {
+    color: white;
+    padding-bottom: 30px;
+    font-size: 50px;
+}
+.main-txt-content .sec-txt {
+    color: #c7c4c4;
+    padding-bottom: 30px;
+    font-size: 20px;
+}
+.fstname,
+.lastname,
+.email,
+.password {
+    font-size: 20px;
+    padding: 30px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.container form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-right: 500px;
+    margin-left: 500px;
+    grid-gap: 20px;
+}
+.select {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+.select select {
+    padding: 30px 200px 30px 20px;
+    width: 925px;
+    background-color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+}
+.submit {
+    font-size: 20px;
+    width: 925px;
+    padding: 30px 200px 30px 200px;
+    background-color: #071f4e;
+    color: white;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.submit-btn {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.last-txt {
+    font-size: 12px;
+    padding-top: 20px;
+    text-align: center;
+    color: #c7c4c4;
+}
+.last-txt span {
+    text-decoration: underline;
+    cursor: pointer;
+}
+a {
+    color: #c7c4c4;
+}
+a:hover {
+    text-decoration: underline white;
+    color: white;
+    transition: 0.4s;
+}
